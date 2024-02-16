@@ -1,15 +1,14 @@
+// Cart.js
 import React, { useContext } from "react";
 import "./Cart.css";
-import { CartContext } from "./CartContext";
+import { CartContext } from "./CartProvider";
 
 function Cart() {
-  const { cart, addToCart, removeFromCart, clearCart } = useContext(CartContext);
+  const { cart, removeFromCart, clearCart } = useContext(CartContext);
 
-  // Function to handle the buy process
   const handleBuy = () => {
-    // Implement your buy logic here
     alert("Buy process initiated. Thank you for your purchase!");
-    clearCart(); // Clear the cart after buying using clearCart from CartContext
+    clearCart();
   };
 
   return (
@@ -22,10 +21,11 @@ function Cart() {
           {cart.map((cartItem) => (
             <li key={cartItem.id} className="item">
               <span>{cartItem.title}</span>
-              {/* <span>{cartItem.image}$</span> */}
               <span>{cartItem.price}$</span>
               <span>{cartItem.quantity}</span>
-              <button onClick={() => removeFromCart(cartItem.id)} className="button">Remove</button>
+              <button onClick={() => removeFromCart(cartItem.id)} className="button">
+                Remove
+              </button>
             </li>
           ))}
         </ul>
