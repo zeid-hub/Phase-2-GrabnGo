@@ -12,6 +12,8 @@ function Order() {
       .then((res) => res.json())
       .then((data) => setOrderList(data));
   }, []);
+// Inside Order.js and Cart.js
+console.log("Rendering Order (or Cart) component");
 
   return (
     <div className="container">

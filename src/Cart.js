@@ -10,6 +10,8 @@ function Cart() {
     alert("Buy process initiated. Thank you for your purchase!");
     clearCart();
   };
+ // Inside Order.js and Cart.js
+console.log("Rendering Order (or Cart) component");
 
   return (
     <div className="cart-section">
