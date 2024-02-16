@@ -1,0 +1,103 @@
+/* Home.css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+  }
+  .home-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyBD2HDwaL4lvC7KCIhWmVuOhKi_wp0M3Zcw&usqp=CAU');
+    backdrop-filter: blur(600px);
+  }
+  
+  header {
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: "https://www.istockphoto.com/photo/shop-assistant-restocking-the-produce-section-shelves-gm1329657343-413315720?utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffood&utm_medium=affiliate&utm_source=unsplash&utm_term=food%3A%3A%3A";
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  
+  h1 {
+    font-size: 45px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2 {
+    padding: 0px 0px 0px 0px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: rgb(226, 212, 203);
+  }
+  
+  .featured-items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 5px 10px 30px 30px;
+    background-image: 'https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU=';
+  }
+  
+  .featured-items > div {
+    width: 45%;
+    padding: 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image:'https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFBJenphfGVufDB8fDB8fHww';
+  }
+  
+  .featured-items img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .featured-items h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .featured-items p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  .grab{
+    color: midnightblue;
+  }
+  .inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    backdrop-filter: blur(9px);
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1676466901396-125e349e847e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 150px;
+  }
+  .parag{
+    color: #fff;
+    font-weight: 60%;
+  }
+  .go{
+    color: rgb(255, 38, 0);
+  }
+  img {
+    padding: 0px 0px 0px 0px;
+  }
