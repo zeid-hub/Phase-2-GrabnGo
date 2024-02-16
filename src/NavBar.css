@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: orange; /* Dark background color */
+    color: white;
+  }
+  
+  .home,
+  .about-us,
+  .orders,
+  .cart {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+  
+  .cart {
+    margin-left: auto; /* Moves the cart to the farthest right corner */
+  }
+  
+  .home:hover .text,
+  .about-us:hover .text,
+  .orders:hover .text,
+  .cart:hover .text {
+    color: hsl(61, 98%, 51%); /* Hover color for text */
+  }
+  
+  .home.active .text,
+  .about-us.active .text,
+  .orders.active .text,
+  .cart.active .text {
+    color: #61ff83; /* Active link color for text */
+  }

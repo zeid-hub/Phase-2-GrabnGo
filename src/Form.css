@@ -1,0 +1,35 @@
+/* Form.css */
+
+/* Style for the form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the input field */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .submit-button {
+    background-color: #187467;
+    color: #e2c9b5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the price display */
+  .price-display {
+    font-size: 18px;
+    color: #161313;
+    margin-top: 20px;
+  }
+  
